@@ -1,3 +1,4 @@
+/* a universal selector that applies styles to all elements on the page */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -21,6 +22,7 @@ header h1 {
   font-size: 48px;
 }
 
+/* an ID tag that targets specific letters in Hori(seo)n to apply styling to */
 #seo {
   color: #d9dcd6;
 }
@@ -51,12 +53,14 @@ p {
   font-size: 16px;
 }
 
+/* a class connected to the main attributes of the page */
 .content {
   width: 75%;
   display: inline-block;
   margin: 20px;
 }
 
+/* this is the background image displayed between the nav bar and main/sidebar content */
 .hero {
   height: 800px;
   width: 100%;
@@ -65,17 +69,17 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* floats an image from two main sections to the left of the text */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* floats the image from the center main section to the right of the text */
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/* a class given to the whole of the sidebar(aside) */
 .benefits {
   margin-right: 20px;
   margin-top: 20px;
@@ -87,7 +91,7 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/* these are specific children in the sidebar */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -109,7 +113,7 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* these are children of the main section */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {

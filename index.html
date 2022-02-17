@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <!-- UTF-8 is latest character set (charset) capable of encoding all characters on the web -->
     <meta charset="UTF-8" />
+    <!-- links to .css stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Horiseon | Home</title>
   </head>
@@ -9,6 +11,7 @@
   <body>
     <header>
       <h1>Hori<em id="seo">seo</em>n</h1>
+      <!-- nav links that, when clicked, take user to that section of the page -->
       <nav>
         <ul>
           <li>
@@ -28,7 +31,11 @@
     <figure class="hero"></figure>
 
     <main class="content">
-      <section class="search-engine-optimization">
+      <!-- the ID below is needed for the nav link to know which part of the page to scroll to -->
+      <section
+        class="search-engine-optimization"
+        id="search-engine-optimization"
+      >
         <img
           src="./assets/images/search-engine-optimization.jpg"
           alt="A visual of the main components of Search Engine Optimization"
@@ -43,7 +50,10 @@
         </p>
       </section>
 
-      <section class="online-reputation-management">
+      <section
+        class="online-reputation-management"
+        id="online-reputation-management"
+      >
         <img
           src="./assets/images/online-reputation-management.jpg"
           alt="A person searches for reputation statistics on a computer"
@@ -59,7 +69,7 @@
         </p>
       </section>
 
-      <section class="social-media-marketing">
+      <section class="social-media-marketing" id="social-media-marketing">
         <img
           src="./assets/images/social-media-marketing.jpg"
           alt="people at a table using computers/tablets to market on social media"
@@ -74,6 +84,7 @@
         </p>
       </section>
     </main>
+    <!-- a sidebar on the page describing other perks of using Horiseon -->
     <aside class="benefits">
       <section class="benefit-lead">
         <h3>Lead Generation</h3>
