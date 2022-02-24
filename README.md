@@ -15,4 +15,4 @@ This was a simple edit of an index.html and .css file. The goal was to improve r
 [For live deployment click here](https://tbro4.github.io/code-refactor/)
 <br></br>
 
-![screenshot](./assets:images/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
